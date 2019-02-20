@@ -81,17 +81,69 @@ CMakeFiles/./../bin/BOLOS.dir/src/main.cpp.o.provides: CMakeFiles/./../bin/BOLOS
 CMakeFiles/./../bin/BOLOS.dir/src/main.cpp.o.provides.build: CMakeFiles/./../bin/BOLOS.dir/src/main.cpp.o
 
 
+CMakeFiles/./../bin/BOLOS.dir/src/Quadrant.cpp.o: CMakeFiles/./../bin/BOLOS.dir/flags.make
+CMakeFiles/./../bin/BOLOS.dir/src/Quadrant.cpp.o: ../src/Quadrant.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documents/Bolos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/./../bin/BOLOS.dir/src/Quadrant.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/./../bin/BOLOS.dir/src/Quadrant.cpp.o -c /home/pablo/Documents/Bolos/src/Quadrant.cpp
+
+CMakeFiles/./../bin/BOLOS.dir/src/Quadrant.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/./../bin/BOLOS.dir/src/Quadrant.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pablo/Documents/Bolos/src/Quadrant.cpp > CMakeFiles/./../bin/BOLOS.dir/src/Quadrant.cpp.i
+
+CMakeFiles/./../bin/BOLOS.dir/src/Quadrant.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/./../bin/BOLOS.dir/src/Quadrant.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pablo/Documents/Bolos/src/Quadrant.cpp -o CMakeFiles/./../bin/BOLOS.dir/src/Quadrant.cpp.s
+
+CMakeFiles/./../bin/BOLOS.dir/src/Quadrant.cpp.o.requires:
+
+.PHONY : CMakeFiles/./../bin/BOLOS.dir/src/Quadrant.cpp.o.requires
+
+CMakeFiles/./../bin/BOLOS.dir/src/Quadrant.cpp.o.provides: CMakeFiles/./../bin/BOLOS.dir/src/Quadrant.cpp.o.requires
+	$(MAKE) -f CMakeFiles/./../bin/BOLOS.dir/build.make CMakeFiles/./../bin/BOLOS.dir/src/Quadrant.cpp.o.provides.build
+.PHONY : CMakeFiles/./../bin/BOLOS.dir/src/Quadrant.cpp.o.provides
+
+CMakeFiles/./../bin/BOLOS.dir/src/Quadrant.cpp.o.provides.build: CMakeFiles/./../bin/BOLOS.dir/src/Quadrant.cpp.o
+
+
+CMakeFiles/./../bin/BOLOS.dir/src/Bowling_Game.cpp.o: CMakeFiles/./../bin/BOLOS.dir/flags.make
+CMakeFiles/./../bin/BOLOS.dir/src/Bowling_Game.cpp.o: ../src/Bowling_Game.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documents/Bolos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/./../bin/BOLOS.dir/src/Bowling_Game.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/./../bin/BOLOS.dir/src/Bowling_Game.cpp.o -c /home/pablo/Documents/Bolos/src/Bowling_Game.cpp
+
+CMakeFiles/./../bin/BOLOS.dir/src/Bowling_Game.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/./../bin/BOLOS.dir/src/Bowling_Game.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pablo/Documents/Bolos/src/Bowling_Game.cpp > CMakeFiles/./../bin/BOLOS.dir/src/Bowling_Game.cpp.i
+
+CMakeFiles/./../bin/BOLOS.dir/src/Bowling_Game.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/./../bin/BOLOS.dir/src/Bowling_Game.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pablo/Documents/Bolos/src/Bowling_Game.cpp -o CMakeFiles/./../bin/BOLOS.dir/src/Bowling_Game.cpp.s
+
+CMakeFiles/./../bin/BOLOS.dir/src/Bowling_Game.cpp.o.requires:
+
+.PHONY : CMakeFiles/./../bin/BOLOS.dir/src/Bowling_Game.cpp.o.requires
+
+CMakeFiles/./../bin/BOLOS.dir/src/Bowling_Game.cpp.o.provides: CMakeFiles/./../bin/BOLOS.dir/src/Bowling_Game.cpp.o.requires
+	$(MAKE) -f CMakeFiles/./../bin/BOLOS.dir/build.make CMakeFiles/./../bin/BOLOS.dir/src/Bowling_Game.cpp.o.provides.build
+.PHONY : CMakeFiles/./../bin/BOLOS.dir/src/Bowling_Game.cpp.o.provides
+
+CMakeFiles/./../bin/BOLOS.dir/src/Bowling_Game.cpp.o.provides.build: CMakeFiles/./../bin/BOLOS.dir/src/Bowling_Game.cpp.o
+
+
 # Object files for target ./../bin/BOLOS
 _/__/bin/BOLOS_OBJECTS = \
-"CMakeFiles/./../bin/BOLOS.dir/src/main.cpp.o"
+"CMakeFiles/./../bin/BOLOS.dir/src/main.cpp.o" \
+"CMakeFiles/./../bin/BOLOS.dir/src/Quadrant.cpp.o" \
+"CMakeFiles/./../bin/BOLOS.dir/src/Bowling_Game.cpp.o"
 
 # External object files for target ./../bin/BOLOS
 _/__/bin/BOLOS_EXTERNAL_OBJECTS =
 
 ./../bin/BOLOS: CMakeFiles/./../bin/BOLOS.dir/src/main.cpp.o
+./../bin/BOLOS: CMakeFiles/./../bin/BOLOS.dir/src/Quadrant.cpp.o
+./../bin/BOLOS: CMakeFiles/./../bin/BOLOS.dir/src/Bowling_Game.cpp.o
 ./../bin/BOLOS: CMakeFiles/./../bin/BOLOS.dir/build.make
 ./../bin/BOLOS: CMakeFiles/./../bin/BOLOS.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pablo/Documents/Bolos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ./../bin/BOLOS"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pablo/Documents/Bolos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable ./../bin/BOLOS"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/./../bin/BOLOS.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -100,6 +152,8 @@ CMakeFiles/./../bin/BOLOS.dir/build: ./../bin/BOLOS
 .PHONY : CMakeFiles/./../bin/BOLOS.dir/build
 
 CMakeFiles/./../bin/BOLOS.dir/requires: CMakeFiles/./../bin/BOLOS.dir/src/main.cpp.o.requires
+CMakeFiles/./../bin/BOLOS.dir/requires: CMakeFiles/./../bin/BOLOS.dir/src/Quadrant.cpp.o.requires
+CMakeFiles/./../bin/BOLOS.dir/requires: CMakeFiles/./../bin/BOLOS.dir/src/Bowling_Game.cpp.o.requires
 
 .PHONY : CMakeFiles/./../bin/BOLOS.dir/requires
 

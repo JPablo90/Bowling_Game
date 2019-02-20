@@ -6,6 +6,8 @@ add_definitions(-std=c++11)
 
 #add_definitions(-Wall)
 
-set(SRCBOL src/main.cpp )
+include_directories(include)
+
+set(SRCBOL src/main.cpp src/Quadrant.cpp src/Bowling_Game.cpp)
 
 add_executable(./../bin/BOLOS ${SRCBOL})

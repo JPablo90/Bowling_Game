@@ -6,6 +6,24 @@
 
 #IncludeRegexTransform: 
 
+../include/Bowling_Game.hpp
+Quadrant.hpp
+../include/Quadrant.hpp
+
+../include/Quadrant.hpp
+iostream
+-
+vector
+-
+
+/home/pablo/Documents/Bolos/src/Bowling_Game.cpp
+Bowling_Game.hpp
+/home/pablo/Documents/Bolos/src/Bowling_Game.hpp
+
+/home/pablo/Documents/Bolos/src/Quadrant.cpp
+Quadrant.hpp
+/home/pablo/Documents/Bolos/src/Quadrant.hpp
+
 /home/pablo/Documents/Bolos/src/main.cpp
 iostream
 -

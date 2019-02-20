@@ -1,1 +1,1 @@
-/usr/bin/c++    -rdynamic CMakeFiles/./../bin/BOLOS.dir/src/main.cpp.o  -o ./../bin/BOLOS 
+/usr/bin/c++    -rdynamic CMakeFiles/./../bin/BOLOS.dir/src/main.cpp.o CMakeFiles/./../bin/BOLOS.dir/src/Quadrant.cpp.o CMakeFiles/./../bin/BOLOS.dir/src/Bowling_Game.cpp.o  -o ./../bin/BOLOS 

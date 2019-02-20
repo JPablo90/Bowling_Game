@@ -123,6 +123,60 @@ depend:
 	$(MAKE) -f CMakeFiles/./../bin/BOLOS.dir/build.make CMakeFiles/./../bin/BOLOS.dir/build
 .PHONY : ./../bin/BOLOS/fast
 
+src/Bowling_Game.o: src/Bowling_Game.cpp.o
+
+.PHONY : src/Bowling_Game.o
+
+# target to build an object file
+src/Bowling_Game.cpp.o:
+	$(MAKE) -f CMakeFiles/./../bin/BOLOS.dir/build.make CMakeFiles/./../bin/BOLOS.dir/src/Bowling_Game.cpp.o
+.PHONY : src/Bowling_Game.cpp.o
+
+src/Bowling_Game.i: src/Bowling_Game.cpp.i
+
+.PHONY : src/Bowling_Game.i
+
+# target to preprocess a source file
+src/Bowling_Game.cpp.i:
+	$(MAKE) -f CMakeFiles/./../bin/BOLOS.dir/build.make CMakeFiles/./../bin/BOLOS.dir/src/Bowling_Game.cpp.i
+.PHONY : src/Bowling_Game.cpp.i
+
+src/Bowling_Game.s: src/Bowling_Game.cpp.s
+
+.PHONY : src/Bowling_Game.s
+
+# target to generate assembly for a file
+src/Bowling_Game.cpp.s:
+	$(MAKE) -f CMakeFiles/./../bin/BOLOS.dir/build.make CMakeFiles/./../bin/BOLOS.dir/src/Bowling_Game.cpp.s
+.PHONY : src/Bowling_Game.cpp.s
+
+src/Quadrant.o: src/Quadrant.cpp.o
+
+.PHONY : src/Quadrant.o
+
+# target to build an object file
+src/Quadrant.cpp.o:
+	$(MAKE) -f CMakeFiles/./../bin/BOLOS.dir/build.make CMakeFiles/./../bin/BOLOS.dir/src/Quadrant.cpp.o
+.PHONY : src/Quadrant.cpp.o
+
+src/Quadrant.i: src/Quadrant.cpp.i
+
+.PHONY : src/Quadrant.i
+
+# target to preprocess a source file
+src/Quadrant.cpp.i:
+	$(MAKE) -f CMakeFiles/./../bin/BOLOS.dir/build.make CMakeFiles/./../bin/BOLOS.dir/src/Quadrant.cpp.i
+.PHONY : src/Quadrant.cpp.i
+
+src/Quadrant.s: src/Quadrant.cpp.s
+
+.PHONY : src/Quadrant.s
+
+# target to generate assembly for a file
+src/Quadrant.cpp.s:
+	$(MAKE) -f CMakeFiles/./../bin/BOLOS.dir/build.make CMakeFiles/./../bin/BOLOS.dir/src/Quadrant.cpp.s
+.PHONY : src/Quadrant.cpp.s
+
 src/main.o: src/main.cpp.o
 
 .PHONY : src/main.o
@@ -159,6 +213,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... ./../bin/BOLOS"
 	@echo "... edit_cache"
+	@echo "... src/Bowling_Game.o"
+	@echo "... src/Bowling_Game.i"
+	@echo "... src/Bowling_Game.s"
+	@echo "... src/Quadrant.o"
+	@echo "... src/Quadrant.i"
+	@echo "... src/Quadrant.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

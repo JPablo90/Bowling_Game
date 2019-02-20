@@ -1,5 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/./../bin/BOLOS.dir/src/main.cpp.o"
+  "CMakeFiles/./../bin/BOLOS.dir/src/Quadrant.cpp.o"
+  "CMakeFiles/./../bin/BOLOS.dir/src/Bowling_Game.cpp.o"
   "./../bin/BOLOS.pdb"
   "./../bin/BOLOS"
 )
