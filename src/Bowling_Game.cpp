@@ -61,7 +61,7 @@ void Bowling_Game::startGame(){
 			else{
 				std::cin >> I1 >> I2;
 				if(setInput1(I1) == 0 && setInput2(I2) == 0) {
-					if((I1 +I2) == 10){
+					if((I1 +I2) >= 10){
 						std::cin >> I3;
 						while(I3 < 0 || I3 > 10)std::cin >> I3;
 					}
@@ -78,37 +78,45 @@ void Bowling_Game::startGame(){
 	for(unsigned int i = 0; i < 10;i++){
 		totalScore += Qd[i].getScore();
 	}
-
+	std::cout << "Scores obtained in each quadrant:" << std::endl; 
+	for(unsigned int i = 0; i < 10;i++)std::cout << Qd[i].getScore() << " ";
+	std::cout << std::endl; 
 	std::cout << "El Puntaje total es: " << totalScore << std::endl;
 }
 		
 void Bowling_Game::addScore(int I1, int I2, int quad_N){
-	int aS = 0;
+	int aS = 0, acV = 0;
 	if(quad_N == 0)return;
 	else if(quad_N == 1){
 		if(Qd[0].getAccumVal() != 0){
-			if(I1 != 0){
-				aS = Qd[0].getScore() + I1;
-				Qd[0].setAccumVal(Qd[0].getAccumVal()-1);
-			}
-			if(I2 != 0){
-				aS += I2;
-				Qd[0].setAccumVal(Qd[0].getAccumVal()-1);
-			}
+			aS = Qd[0].getScore() + I1;
+			acV = Qd[0].getAccumVal()-1;
+			Qd[0].setAccumVal(acV);
+			Qd[0].setScore(aS);
 		}
+		if(I1 != 10 && Qd[0].getAccumVal() != 0){
+			aS += I2;
+			acV = Qd[0].getAccumVal()-1;
+			Qd[0].setAccumVal(acV);
+			Qd[0].setScore(aS);
+		}
+		aS = 0;
 	}
 	else{
-		for(unsigned int i = quad_N-1;i == quad_N -2;i--){
+		for(int i = quad_N-1;i >= quad_N-2;i--){
 			if(Qd[i].getAccumVal() != 0){
-				if(I1 != 0){
-					aS = Qd[i].getScore() + I1;
-					Qd[i].setAccumVal(Qd[i].getAccumVal()-1);
-				}
-				if(I2 != 0){
-					aS += I2;
-					Qd[i].setAccumVal(Qd[i].getAccumVal()-1);
-				}
+				aS = Qd[i].getScore() + I1;
+				acV = Qd[i].getAccumVal()-1;
+				Qd[i].setAccumVal(acV);
+				Qd[i].setScore(aS);
 			}
+			if(I1 != 10 && Qd[i].getAccumVal() != 0){
+				aS += I2;
+				acV = Qd[i].getAccumVal()-1;
+				Qd[i].setAccumVal(acV);
+				Qd[i].setScore(aS);
+			}
+			aS = 0;
 		}
 		
 	}
