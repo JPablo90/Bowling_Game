@@ -14,6 +14,9 @@ class Bowling_Game{
 		int getInput2();
 		void setTotalScore(int TS);
 		int getTotalScore();
+		void startGame();
+		void addScore(int I1, int I2, int quad_N);
+		int eval_Inputs(int I1, int I2, int quad_N);
 	private:
 		int input1;
 		int input2;

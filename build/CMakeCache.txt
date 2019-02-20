@@ -15,10 +15,10 @@
 ########################
 
 //Value Computed by CMake
-BOLOS_BINARY_DIR:STATIC=/home/pablo/Documents/Bolos/build
+Bowling_Game_BINARY_DIR:STATIC=/home/pablo/Documents/Bolos/build
 
 //Value Computed by CMake
-BOLOS_SOURCE_DIR:STATIC=/home/pablo/Documents/Bolos
+Bowling_Game_SOURCE_DIR:STATIC=/home/pablo/Documents/Bolos
 
 //Path to a program.
 CMAKE_AR:FILEPATH=/usr/bin/ar
@@ -136,7 +136,7 @@ CMAKE_OBJCOPY:FILEPATH=/usr/bin/objcopy
 CMAKE_OBJDUMP:FILEPATH=/usr/bin/objdump
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=BOLOS
+CMAKE_PROJECT_NAME:STATIC=Bowling_Game
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=/usr/bin/ranlib

@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/pablo/Documents/Bolos/src/Bowling_Game.cpp" "/home/pablo/Documents/Bolos/build/bin/BOLOS.dir/src/Bowling_Game.cpp.o"
-  "/home/pablo/Documents/Bolos/src/Quadrant.cpp" "/home/pablo/Documents/Bolos/build/bin/BOLOS.dir/src/Quadrant.cpp.o"
-  "/home/pablo/Documents/Bolos/src/main.cpp" "/home/pablo/Documents/Bolos/build/bin/BOLOS.dir/src/main.cpp.o"
+  "/home/pablo/Documents/Bolos/src/Bowling_Game.cpp" "/home/pablo/Documents/Bolos/build/bin/Bowling.dir/src/Bowling_Game.cpp.o"
+  "/home/pablo/Documents/Bolos/src/Quadrant.cpp" "/home/pablo/Documents/Bolos/build/bin/Bowling.dir/src/Quadrant.cpp.o"
+  "/home/pablo/Documents/Bolos/src/main.cpp" "/home/pablo/Documents/Bolos/build/bin/Bowling.dir/src/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

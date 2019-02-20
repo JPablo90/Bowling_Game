@@ -25,10 +25,6 @@ Quadrant.hpp
 /home/pablo/Documents/Bolos/src/Quadrant.hpp
 
 /home/pablo/Documents/Bolos/src/main.cpp
-iostream
--
-cmath
--
-vector
--
+Bowling_Game.hpp
+/home/pablo/Documents/Bolos/src/Bowling_Game.hpp
 

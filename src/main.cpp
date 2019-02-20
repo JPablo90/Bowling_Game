@@ -1,8 +1,7 @@
-#include <iostream>
-#include <cmath>
-#include <vector>
+#include "Bowling_Game.hpp"
 
 int main(){
-	std::cout << "Hello World" << std::endl;
+	Bowling_Game newGame;
+	newGame.startGame();
 	return 0;
 }

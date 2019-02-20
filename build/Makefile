@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named ./../bin/BOLOS
+# Target rules for targets named ./../bin/Bowling
 
 # Build rule for target.
-./../bin/BOLOS: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 ./../bin/BOLOS
-.PHONY : ./../bin/BOLOS
+./../bin/Bowling: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ./../bin/Bowling
+.PHONY : ./../bin/Bowling
 
 # fast build rule for target.
-./../bin/BOLOS/fast:
-	$(MAKE) -f CMakeFiles/./../bin/BOLOS.dir/build.make CMakeFiles/./../bin/BOLOS.dir/build
-.PHONY : ./../bin/BOLOS/fast
+./../bin/Bowling/fast:
+	$(MAKE) -f CMakeFiles/./../bin/Bowling.dir/build.make CMakeFiles/./../bin/Bowling.dir/build
+.PHONY : ./../bin/Bowling/fast
 
 src/Bowling_Game.o: src/Bowling_Game.cpp.o
 
@@ -129,7 +129,7 @@ src/Bowling_Game.o: src/Bowling_Game.cpp.o
 
 # target to build an object file
 src/Bowling_Game.cpp.o:
-	$(MAKE) -f CMakeFiles/./../bin/BOLOS.dir/build.make CMakeFiles/./../bin/BOLOS.dir/src/Bowling_Game.cpp.o
+	$(MAKE) -f CMakeFiles/./../bin/Bowling.dir/build.make CMakeFiles/./../bin/Bowling.dir/src/Bowling_Game.cpp.o
 .PHONY : src/Bowling_Game.cpp.o
 
 src/Bowling_Game.i: src/Bowling_Game.cpp.i
@@ -138,7 +138,7 @@ src/Bowling_Game.i: src/Bowling_Game.cpp.i
 
 # target to preprocess a source file
 src/Bowling_Game.cpp.i:
-	$(MAKE) -f CMakeFiles/./../bin/BOLOS.dir/build.make CMakeFiles/./../bin/BOLOS.dir/src/Bowling_Game.cpp.i
+	$(MAKE) -f CMakeFiles/./../bin/Bowling.dir/build.make CMakeFiles/./../bin/Bowling.dir/src/Bowling_Game.cpp.i
 .PHONY : src/Bowling_Game.cpp.i
 
 src/Bowling_Game.s: src/Bowling_Game.cpp.s
@@ -147,7 +147,7 @@ src/Bowling_Game.s: src/Bowling_Game.cpp.s
 
 # target to generate assembly for a file
 src/Bowling_Game.cpp.s:
-	$(MAKE) -f CMakeFiles/./../bin/BOLOS.dir/build.make CMakeFiles/./../bin/BOLOS.dir/src/Bowling_Game.cpp.s
+	$(MAKE) -f CMakeFiles/./../bin/Bowling.dir/build.make CMakeFiles/./../bin/Bowling.dir/src/Bowling_Game.cpp.s
 .PHONY : src/Bowling_Game.cpp.s
 
 src/Quadrant.o: src/Quadrant.cpp.o
@@ -156,7 +156,7 @@ src/Quadrant.o: src/Quadrant.cpp.o
 
 # target to build an object file
 src/Quadrant.cpp.o:
-	$(MAKE) -f CMakeFiles/./../bin/BOLOS.dir/build.make CMakeFiles/./../bin/BOLOS.dir/src/Quadrant.cpp.o
+	$(MAKE) -f CMakeFiles/./../bin/Bowling.dir/build.make CMakeFiles/./../bin/Bowling.dir/src/Quadrant.cpp.o
 .PHONY : src/Quadrant.cpp.o
 
 src/Quadrant.i: src/Quadrant.cpp.i
@@ -165,7 +165,7 @@ src/Quadrant.i: src/Quadrant.cpp.i
 
 # target to preprocess a source file
 src/Quadrant.cpp.i:
-	$(MAKE) -f CMakeFiles/./../bin/BOLOS.dir/build.make CMakeFiles/./../bin/BOLOS.dir/src/Quadrant.cpp.i
+	$(MAKE) -f CMakeFiles/./../bin/Bowling.dir/build.make CMakeFiles/./../bin/Bowling.dir/src/Quadrant.cpp.i
 .PHONY : src/Quadrant.cpp.i
 
 src/Quadrant.s: src/Quadrant.cpp.s
@@ -174,7 +174,7 @@ src/Quadrant.s: src/Quadrant.cpp.s
 
 # target to generate assembly for a file
 src/Quadrant.cpp.s:
-	$(MAKE) -f CMakeFiles/./../bin/BOLOS.dir/build.make CMakeFiles/./../bin/BOLOS.dir/src/Quadrant.cpp.s
+	$(MAKE) -f CMakeFiles/./../bin/Bowling.dir/build.make CMakeFiles/./../bin/Bowling.dir/src/Quadrant.cpp.s
 .PHONY : src/Quadrant.cpp.s
 
 src/main.o: src/main.cpp.o
@@ -183,7 +183,7 @@ src/main.o: src/main.cpp.o
 
 # target to build an object file
 src/main.cpp.o:
-	$(MAKE) -f CMakeFiles/./../bin/BOLOS.dir/build.make CMakeFiles/./../bin/BOLOS.dir/src/main.cpp.o
+	$(MAKE) -f CMakeFiles/./../bin/Bowling.dir/build.make CMakeFiles/./../bin/Bowling.dir/src/main.cpp.o
 .PHONY : src/main.cpp.o
 
 src/main.i: src/main.cpp.i
@@ -192,7 +192,7 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
-	$(MAKE) -f CMakeFiles/./../bin/BOLOS.dir/build.make CMakeFiles/./../bin/BOLOS.dir/src/main.cpp.i
+	$(MAKE) -f CMakeFiles/./../bin/Bowling.dir/build.make CMakeFiles/./../bin/Bowling.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -201,7 +201,7 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
-	$(MAKE) -f CMakeFiles/./../bin/BOLOS.dir/build.make CMakeFiles/./../bin/BOLOS.dir/src/main.cpp.s
+	$(MAKE) -f CMakeFiles/./../bin/Bowling.dir/build.make CMakeFiles/./../bin/Bowling.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
 # Help Target
@@ -211,7 +211,7 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... ./../bin/BOLOS"
+	@echo "... ./../bin/Bowling"
 	@echo "... edit_cache"
 	@echo "... src/Bowling_Game.o"
 	@echo "... src/Bowling_Game.i"
