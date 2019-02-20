@@ -1,0 +1,3 @@
+/home/pablo/Documents/Bolos/build/CMakeFiles/rebuild_cache.dir
+/home/pablo/Documents/Bolos/build/CMakeFiles/./../bin/BOLOS.dir
+/home/pablo/Documents/Bolos/build/CMakeFiles/edit_cache.dir

@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/./../bin/BOLOS.dir/src/main.cpp.o  -o ./../bin/BOLOS 
